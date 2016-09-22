@@ -99,3 +99,4 @@ RefactoringAction 1474550345952 TestBowling.java RENAME testBowlingAddFrame()/2=
 RefactoringAction 1474550347963 TestBowling.java RENAME testBowling()=>void testBowlingScore() METHOD
 EditAction 1474550594819 TestBowling.java 1127 5 22 4
 EditAction 1474550595046 BowlingGame.java 1729 5 6 0
+EditAction 1474550619994 TestBowling.java 1162 5 23 5

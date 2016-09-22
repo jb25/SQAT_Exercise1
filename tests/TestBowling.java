@@ -53,7 +53,7 @@ public class TestBowling {
 
 
 
-
+assertArrayEquals(133, bg.score());
 
 
 
