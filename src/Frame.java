@@ -24,12 +24,22 @@ public class Frame {
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
 		//to be implemented
-		return false;
+		boolean strike=false;
+		if(this.firstThrow==10){
+			strike=true;
+			
+		}
+		return strike;
 	}
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
 		//to be implemented
-		return false;
+		boolean pare=false;
+		if((this.firstThrow+this.secondThrow)==10 && this.firstThrow!=10){
+			pare=true;
+			
+		}
+		return pare;
 	}
 }
