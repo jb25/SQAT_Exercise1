@@ -38,4 +38,6 @@ public class TestBowling {
 
 		assertTrue(((BowlingGame) bg).getFrames().size()-before==1);	
 	}
+	
+	
 }
