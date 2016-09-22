@@ -100,3 +100,10 @@ RefactoringAction 1474550347963 TestBowling.java RENAME testBowling()=>void test
 EditAction 1474550594819 TestBowling.java 1127 5 22 4
 EditAction 1474550595046 BowlingGame.java 1729 5 6 0
 EditAction 1474550619994 TestBowling.java 1162 5 23 5
+CompilationAction 1474550620355 TestBowling.java
+RefactoringAction 1474550630098 TestBowling.java ADD void assertArrayEquals(int, int) METHOD
+RefactoringAction 1474550632070 TestBowling.java REMOVE assertArrayEquals(int, int) METHOD
+CompilationAction 1474550706986 TestBowling.java
+UnitTestCaseAction 1474550707736 TestBowling.java FAIL
+UnitTestSessionAction 1474550707736 TestBowling.java FAIL
+EditAction 1474550773940 BowlingGame.java 1746 5 7 0
