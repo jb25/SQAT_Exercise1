@@ -3,3 +3,16 @@ FileOpenedAction 1474544669283 Frame.java 671 6 7 0
 FileOpenedAction 1474545335670 TestBowling.java 165 1 1 0
 EditAction 1474545661154 Frame.java 869 6 11 0
 EditAction 1474545696344 Frame.java 906 6 11 0
+RefactoringAction 1474546320804 BowlingGame.java ADD List<Frame> getFrames() METHOD
+RefactoringAction 1474546407088 TestBowling.java ADD void test()/2 METHOD
+RefactoringAction 1474546412098 TestBowling.java RENAME test()/2=>void testFrame() METHOD
+RefactoringAction 1474546471263 TestBowling.java RENAME testFrame()=>void testFrame1() METHOD
+RefactoringAction 1474546476783 TestBowling.java ADD BowlingGame bg FIELD
+RefactoringAction 1474546535363 TestBowling.java RENAME testFrame1()=>void testFrameStrike() METHOD
+RefactoringAction 1474546566462 TestBowling.java ADD void testFrameStrike()/2 METHOD
+RefactoringAction 1474546568470 TestBowling.java RENAME testFrameStrike()/2=>void testFrameStrik() METHOD
+RefactoringAction 1474546570981 TestBowling.java RENAME testFrameStrik()=>void testFramePare() METHOD
+RefactoringAction 1474546592033 TestBowling.java ADD void testFramePare()/2 METHOD
+RefactoringAction 1474546594041 TestBowling.java RENAME testFramePare()/2=>void testFramePar() METHOD
+RefactoringAction 1474546596549 TestBowling.java RENAME testFramePar()=>void testFrameScore() METHOD
+EditAction 1474546643238 TestBowling.java 528 4 7 3
