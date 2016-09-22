@@ -22,3 +22,8 @@ RefactoringAction 1474546669228 TestBowling.java RENAME testB()=>void testBowlin
 RefactoringAction 1474546674240 TestBowling.java RENAME testBowling()=>void testBowlingAddFrame() METHOD
 RefactoringAction 1474546676749 TestBowling.java REMOVE bg FIELD
 EditAction 1474546919696 TestBowling.java 699 5 11 4
+CompilationAction 1474546919913 TestBowling.java
+CompilationAction 1474546919914 TestBowling.java
+CompilationAction 1474547080408 TestBowling.java
+CompilationAction 1474547080408 TestBowling.java
+EditAction 1474547080427 BowlingGame.java 1030 5 6 0

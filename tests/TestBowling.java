@@ -33,9 +33,9 @@ public class TestBowling {
 	@Test
 	public void testBowlingAddFrame() {
 		BowlingGame bg= new BowlingGame();
-		int before=bg.getFrames().size();
+		int before=((BowlingGame) bg).getFrames().size();
 		bg.addFrame(new Frame(1, 1));
 
-		assertTrue(bg.getFrames().size()-before==1);	
-
+		assertTrue(((BowlingGame) bg).getFrames().size()-before==1);	
 	}
+}
