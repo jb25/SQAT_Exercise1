@@ -54,13 +54,13 @@ public class BowlingGame {
 				score=score+10;}
 		}
 			if (i==9&&frames.get(i).isStrike() ||frames.get(i).isSpare()) {
-				if (bonus.isSpare()||bonus.isStrike()) {
+				if (frames.get(i).getFirstThrow()+bonus.getFirstThrow()==10||frames.get(i).isStrike() ) {
 					
-					if (bonus.isSpare()) {
-						score=score+frames.get(i).getFirstThrow()+bonus.getSecondThrow();
+					if (frames.get(i).getFirstThrow()+bonus.getFirstThrow()==10) {
+						score=score+10+bonus.getSecondThrow()+bonus.getSecondThrow();
 
 					}
-					if (bonus.isStrike()) {
+					if (frames.get(i).isStrike()) {
 						score=score+frames.get(i).getFirstThrow()+10+bonus.getSecondThrow();
 
 					}
