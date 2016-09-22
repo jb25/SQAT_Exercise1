@@ -55,7 +55,15 @@ public class BowlingGame {
 		}
 			if (i==9&&frames.get(i).isStrike() ||frames.get(i).isSpare()) {
 				if (bonus.isSpare()||bonus.isStrike()) {
-					score=score+frames.get(i).getFirstThrow()+bonus.score();
+					
+					if (bonus.isSpare()) {
+						score=score+frames.get(i).getFirstThrow()+bonus.getSecondThrow();
+
+					}
+					if (bonus.isStrike()) {
+						score=score+frames.get(i).getFirstThrow()+10+bonus.getSecondThrow();
+
+					}
 				}else{
 					score=score+frames.get(i).getFirstThrow()+bonus.getFirstThrow();
 				}
