@@ -47,8 +47,8 @@ public class TestBowling {
 		bg.addFrame(new Frame(7, 3));
 		bg.addFrame(new Frame(6, 4));
 		bg.addFrame(new Frame(10, 0));
-		bg.addFrame(new Frame(2, 8));
-		bg.setBonus(6, 0);
+		bg.addFrame(new Frame(2, 99));
+		bg.setBonus(8, 6);
 
 
 
