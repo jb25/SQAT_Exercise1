@@ -16,3 +16,9 @@ RefactoringAction 1474546592033 TestBowling.java ADD void testFramePare()/2 METH
 RefactoringAction 1474546594041 TestBowling.java RENAME testFramePare()/2=>void testFramePar() METHOD
 RefactoringAction 1474546596549 TestBowling.java RENAME testFramePar()=>void testFrameScore() METHOD
 EditAction 1474546643238 TestBowling.java 528 4 7 3
+RefactoringAction 1474546664208 TestBowling.java ADD void test()/2 METHOD
+RefactoringAction 1474546667219 TestBowling.java RENAME test()/2=>void testB() METHOD
+RefactoringAction 1474546669228 TestBowling.java RENAME testB()=>void testBowling() METHOD
+RefactoringAction 1474546674240 TestBowling.java RENAME testBowling()=>void testBowlingAddFrame() METHOD
+RefactoringAction 1474546676749 TestBowling.java REMOVE bg FIELD
+EditAction 1474546919696 TestBowling.java 699 5 11 4

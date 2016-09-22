@@ -3,7 +3,6 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestBowling {
-	BowlingGame bg= new BowlingGame();
 	@Test
 	public void test() {
 		fail("Not yet implemented");
@@ -31,4 +30,12 @@ public class TestBowling {
 		assertEquals(f.score(), 8);		
 	}
 
-}
+	@Test
+	public void testBowlingAddFrame() {
+		BowlingGame bg= new BowlingGame();
+		int before=bg.getFrames().size();
+		bg.addFrame(new Frame(1, 1));
+
+		assertTrue(bg.getFrames().size()-before==1);	
+
+	}
