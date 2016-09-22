@@ -68,7 +68,6 @@ public class BowlingGame {
 					score=score+frames.get(i).getFirstThrow()+bonus.getFirstThrow();
 				}
 				
-				score=score+frames.get(i).getFirstThrow()+bonus.score();
 			}
 
 
