@@ -81,3 +81,10 @@ CompilationAction 1474549056342 BowlingGame.java
 CompilationAction 1474549056342 BowlingGame.java
 CompilationAction 1474549056343 BowlingGame.java
 EditAction 1474549056357 TestBowling.java 738 5 11 4
+RefactoringAction 1474550142198 BowlingGame.java ADD void r FIELD
+RefactoringAction 1474550146708 BowlingGame.java RENAME r=>void ralBonus FIELD
+RefactoringAction 1474550148217 BowlingGame.java RENAME ralBonus=>void ralBonusssss FIELD
+RefactoringAction 1474550151231 BowlingGame.java RENAME ralBonusssss=>void ralBonusssss() METHOD
+RefactoringAction 1474550158258 BowlingGame.java RENAME ralBonusssss()=>void realBonusssss() METHOD
+RefactoringAction 1474550183309 BowlingGame.java REMOVE realBonusssss() METHOD
+EditAction 1474550214860 BowlingGame.java 1524 5 6 0
