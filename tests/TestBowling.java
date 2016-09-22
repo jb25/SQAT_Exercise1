@@ -35,6 +35,28 @@ public class TestBowling {
 
 		assertTrue(((BowlingGame) bg).getFrames().size()-before==1);	
 	}
-	
+	@Test
+	public void testBowlingScore() {
+		BowlingGame bg= new BowlingGame();
+		bg.addFrame(new Frame(1, 4));	
+		bg.addFrame(new Frame(4, 5));
+		bg.addFrame(new Frame(6, 4));
+		bg.addFrame(new Frame(5, 5));	
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(0, 1));
+		bg.addFrame(new Frame(7, 3));
+		bg.addFrame(new Frame(6, 4));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(2, 8));
+		bg.setBonus(6, 0);
+
+
+
+
+
+
+
+
+	}
 	
 }

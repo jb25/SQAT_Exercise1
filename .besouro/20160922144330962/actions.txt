@@ -92,3 +92,9 @@ UnitTestCaseAction 1474550219822 TestBowling.java FAIL
 UnitTestSessionAction 1474550219824 TestBowling.java FAIL
 RefactoringAction 1474550225448 TestBowling.java REMOVE test() METHOD
 EditAction 1474550226868 TestBowling.java 673 4 10 4
+UnitTestCaseAction 1474550227609 TestBowling.java OK
+UnitTestSessionAction 1474550227610 TestBowling.java OK
+RefactoringAction 1474550341941 TestBowling.java ADD void testBowlingAddFrame()/2 METHOD
+RefactoringAction 1474550345952 TestBowling.java RENAME testBowlingAddFrame()/2=>void testBowling() METHOD
+RefactoringAction 1474550347963 TestBowling.java RENAME testBowling()=>void testBowlingScore() METHOD
+EditAction 1474550594819 TestBowling.java 1127 5 22 4
